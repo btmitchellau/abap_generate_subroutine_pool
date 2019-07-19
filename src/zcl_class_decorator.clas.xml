@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CLASS_DECORATOR</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Private ain&apos;t what it used to be</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_DECORATOR</CLSNAME>
+     <CMPNAME>ADD_GET_SET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add generic getter/setter to an existing class definition</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_DECORATOR</CLSNAME>
+     <CMPNAME>CHECK_SYNTAX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Performs a syntax check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_DECORATOR</CLSNAME>
+     <CMPNAME>CREATE_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates an object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_DECORATOR</CLSNAME>
+     <CMPNAME>DELETE_LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deletes first line matching pattern</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_DECORATOR</CLSNAME>
+     <CMPNAME>EXPOSE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change the visibility of an existing class definition</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_DECORATOR</CLSNAME>
+     <CMPNAME>GENERATE_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>if syntax check is good, returns an object from source code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_DECORATOR</CLSNAME>
+     <CMPNAME>GET_SOURCE_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>retrieve source code by class name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_DECORATOR</CLSNAME>
+     <CMPNAME>PREPARE_CLASS_DEFINITION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Alters source code to be generate friendly</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
