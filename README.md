@@ -14,7 +14,7 @@ Unit test cases should speak for themselves.
     "--- 'GET_RECORDS_COUNT' is a private method on CL_WDR_TEST_ATTRIBUTE_FILTER
     data lr_count type ref to data.
 
-    data(lr_obj) = lr_decorator->expose( 'CL_WDR_TEST_ATTRIBUTE_FILTER' ).
+    data(lr_obj) = new zcl_class_decorator( )->expose( 'CL_WDR_TEST_ATTRIBUTE_FILTER' ).
     call method lr_obj->('GET_RECORDS_COUNT') exporting where_clause = 'CARRID IS NOT NULL' receiving records_count = lr_count.
     cl_abap_unit_assert=>assert_not_initial( act = lr_count
                                              msg = 'Expected a result back from dynamic method call '  ).
