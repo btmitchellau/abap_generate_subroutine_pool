@@ -6,6 +6,7 @@ An example of how to generate ABAP objects from an internal table of source code
 Usage: 
 Unit test cases should speak for themselves.
 
+```
   method expose_method.
 
     "--- Tests that we can publicly expose and call a private method of an existing class
@@ -18,7 +19,9 @@ Unit test cases should speak for themselves.
     cl_abap_unit_assert=>assert_not_initial( act = lr_count
                                              msg = 'Expected a result back from dynamic method call '  ).
   endmethod.
+```
 
+```
   method expose_attribute.
 
     "--- Tests that we can access a private attribute of an existing class...
@@ -32,6 +35,7 @@ Unit test cases should speak for themselves.
                                              msg = 'Expected fs val to have a value and be assigned'  ).
 
   endmethod.
+```
 
 Dependencies:
 https://github.com/lteacher/boxed_data. This is only used in the generic getter implementation. 
